@@ -14,4 +14,3 @@ COPY --from=builder /app/build  /usr/share/nginx/html
 
 
 
-***7 Continuous Integration and Deployment with AWS
