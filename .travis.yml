@@ -4,7 +4,7 @@ services:
      
 
 before_install:
-  - docker buid -t adityayadav/docker-react  -f Dockerfile.dev .
+   - docker build -t adityayadav/docker-react -f Dockerfile.dev .
  	
 
 script:
