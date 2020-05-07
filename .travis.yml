@@ -4,9 +4,7 @@ services:
      
 
 before_install:
-   -docker build -t adityayadav/docker-react -f Dockerfile.dev .
- 	
-
+   - docker build -t adityayadav/docker-react -f Dockerfile.dev .
 script:
    - docker run -e CI=true adityayadav/docker-react npm run test
 
